@@ -1,0 +1,13 @@
+<project default="compile">
+    <target name="clean">
+        <delete file="day_4.class"/>
+    </target>
+
+    <target name="compile">
+        <javac includeantruntime="false" srcdir="."/>
+    </target>
+
+    <target name="run" depends="compile">
+        <java classname="day_4" fork="true"/>
+    </target>
+</project>
