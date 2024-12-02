@@ -34,6 +34,5 @@ fn main() {
         })
         .count() as i32;
 
-    // Should be 686
     println!("Part one is {res_1}");
 }

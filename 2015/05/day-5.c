@@ -95,10 +95,7 @@ int main() {
         if (biword_twice && separated) nice_strings_2++;
     }
 
-    // Should be 236
     printf("Part 1: %d\n", nice_strings_1);
-
-    // Should be 51
     printf("Part 2: %d\n", nice_strings_2);
 
     if (line) free(line);

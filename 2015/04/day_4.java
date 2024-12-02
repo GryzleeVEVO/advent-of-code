@@ -55,10 +55,7 @@ class day_4 {
                     idx++;
                 }
 
-                // Answer should be 282749
                 System.out.println("Part 1: " + Integer.toString(idx_1));
-
-                // Answer should be 9962624
                 System.out.println("Part 2: " + Integer.toString(idx_2));
             }
 

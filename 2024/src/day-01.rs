@@ -38,7 +38,6 @@ fn main() {
         .map(|(a, b)| (a - b).abs())
         .sum();
 
-    // Should be 936063
     println!("Part one is {sum1}");
 
     // Part 2: Multiply each element from the left with the number of times
@@ -48,6 +47,5 @@ fn main() {
         .map(|i| i * (right.iter().filter(|&j| i == j).count() as i32))
         .sum();
 
-    // Should be 23150395
     println!("Part two is {sum2}");
 }

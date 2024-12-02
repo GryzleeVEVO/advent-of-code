@@ -50,8 +50,5 @@ try {
 } catch (err) {
   console.log(err);
 }
-
-// Answer should be 1588178
 console.log("The output for part 1 is: ", wrapperArea, "ft²");
-// Answer should be 3783758
 console.log("The output for part 2 is: ", ribbonLength, "ft");

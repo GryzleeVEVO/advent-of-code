@@ -71,9 +71,7 @@ class Program
             foreach (int i in grid1) count1 += i;
             foreach (int i in grid2) count2 += i;
 
-            // Should output 377891
             Console.WriteLine("Part 1 is: " + count1);
-            // Should output 14110788
             Console.WriteLine("Part 2 is: " + count2);
         }
         catch (Exception e)

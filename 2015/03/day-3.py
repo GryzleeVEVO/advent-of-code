@@ -57,7 +57,5 @@ with open("input.txt") as f:
 
             santa_turn = not santa_turn
 
-# Should be 2572
 print("Output for part 1 is", len(homes_visited), "homes visited")
-# Should be 2631
 print("Output for part 2 is", len(homes_visited_2), "homes visited")

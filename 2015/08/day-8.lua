@@ -46,10 +46,7 @@ for line in file:lines() do
     part2 = part2 + reencoded - representation
 end
 
--- Should be 1333
 print("Part 1 is: " .. part1)
-
--- Should be 2046
 print("Part 2 is: " .. part2)
 
 file:close()

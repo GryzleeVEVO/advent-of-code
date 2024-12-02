@@ -45,10 +45,7 @@ int main() {
         // starts indexing with 0 it can do
         if (!basement_char && dest_floor <= -1) basement_char = floor_counter;
 
-        // Should be 232
         cout << "Output for part 1: " << dest_floor << endl;
-
-        // Should be 1783
         cout << "Output for part 2: " << basement_char << endl;
     }
 

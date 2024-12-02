@@ -132,7 +132,6 @@ while (!empty($f)) {
 
 $sol_part_1 = $wires["a"];
 
-// Should be 3176. First try weeeeeeeeeeee
 print ("Part 1: " . $wires["a"] . "\n");
 
 
@@ -251,5 +250,4 @@ while (!empty($f)) {
     }
 }
 
-// Should be 14710
 print ("Part 2: " . $wires["a"] . "\n");
