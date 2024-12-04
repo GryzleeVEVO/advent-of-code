@@ -1,14 +1,3 @@
--- Part 1:
---  - Goal: # chars code - # chars in-memory
---  - All strings enclosed in qootes "" -> min 2 chars code, 0 in memory
---  - \? escaped characters count as one in memory
---  - \x?? escaped characters count as one in memory too
---  - Chars code is length string
---  - Chars in memory
--- Part 2:
---  - Goal: # chars reencoded - # chars of code
---  - Reencoded is just the same string quoted again + inside quotes and backslashes escaped
-
 local file = io.open("input.txt")
 
 if file == nil then

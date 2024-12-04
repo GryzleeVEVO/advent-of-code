@@ -1,16 +1,3 @@
-// Part 1:
-//  - Nice lists :
-//      - Contain at least three vowels
-//      - Contain at least one letter twice in a row
-//      - It does not contain ab, cd, pq or xy
-//  - Anything else is naughty
-//
-// Part 2:
-// - New nice list:
-//      - It contains a repeated biword (eg. xy -> axycdxyaa, triwords don't
-//      count)
-//      - It contains a the same character separated by another (eg. xyx, xxx)
-
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>

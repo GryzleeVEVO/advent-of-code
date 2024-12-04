@@ -1,11 +1,3 @@
-/*
-    Part 1: Get number of safe reports. A report is safe if:
-        - The levels are arranged either in a increasing or decreasing order
-        - Each level is higher/lower from the last by 1 or 2
-
-    Part 2: Now one level can be wrong in each report
-*/
-
 use std::fs;
 
 fn main() {

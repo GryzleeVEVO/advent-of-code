@@ -1,12 +1,4 @@
-﻿// Part 1:
-//  - 1000x1000 grid
-//  - commands: turn on/turn off/toggle
-//  - x1,y1 through x2,y2 defines a rectangle
-//  - Objective: How many lights are on?
-// Part 2:
-//  - turn off = +1, turn off = -1 unless less than zero, toggle = +2
-
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 class Program
 {

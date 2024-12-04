@@ -1,15 +1,3 @@
-// Part 1:
-//  - List of dimensions of present
-//  - Surface 2*l*w + 2*w*h + 2*h*l
-//  - + an extra equal to surface of smallest side
-//  - Input: l x w x h
-//  - Objective: Get required ft^2 of wrapper
-//
-// Part 2:
-//  - Length of ribbon is 2*smallest_side + 2*medium_side
-//  - Extra for bow is its volume (l*w*h)
-//  - Objective: Get required ribbon length
-
 import { readFileSync } from "node:fs";
 
 const boxArea = (length, width, height) =>

@@ -1,13 +1,3 @@
-# Part 1:
-#   - 2D grid of houses
-#   - Starts delivering on starting position]
-#   - Delivers new present on each step
-#   - Directions are ^ v < >
-#   - Objective: Get number of houses that get a present
-# Part 2:
-#   - Two santas take turns (first santa, next robosanta)
-#   - Same objective
-
 x, y = 0, 0
 x1, y1 = 0, 0
 x2, y2 = 0, 0

@@ -1,17 +1,3 @@
-// Part 1:
-//  - Objective: Find lowest positive integer that produces a MD5 hash with five
-//      leading zeroes (in hexadecimal).
-//    IMPORTANT: FIVE ZEROES IN HEXADECIMAL, NOT BYTE BY B
-//  - For example: MD5(abcdef + 609043)=000001dbbfa...
-//  - AKA implement a MD5 hashing function
-//
-//  About MD5:
-//      - Input is arbitrary length byte array
-//      - Returns a 128 byte value
-//      - TODO: Implement it by hand. Eventually
-//
-// Part 2: The same but with six zeroes
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

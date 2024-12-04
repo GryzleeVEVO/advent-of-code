@@ -1,14 +1,3 @@
-/*
-   Part 1: Get the sum of all multiplications
-       - A multiplication instruction is mul(X,Y)
-       - Anything that does not meet this criteria is garbage
-       - Don't have time to manually parse the file so i'll just regex it
-       - TODO: Maybe do it by hand. But I don't quite see the point
-
-    Part 2: There are more instructions!
-        - do() and don't(), which make the next muls applicable or not
-*/
-
 use regex::Regex;
 use std::fs;
 

@@ -1,20 +1,4 @@
 <?php
-// Part 1:
-//  - Wires labeled a,b,c,...
-//  - 16 bit signal
-//  - Bitwise logic gates:
-//      - NOT (NOT wire -> wire_out)
-//      - AND (wire_1/const_1 AND wire_2/const_2 -> wire_out)
-//      - OR (wire_1/const_1 OR wire_2/const_2 -> wire_out)
-//      - LSHIFT (wire LSHIFT constant -> wire_out)
-//      - RSHIFT (wire LSHIFT constant -> wire_out)
-//      - NOTE: Gates don't output until all inputs are connected
-//  - Numerical constants (constant -> wire)
-//  - One source for input, possible multiple outputs
-//  - Objective: What does the wire a output?
-//
-// Part 2: Now b is wired to the solution of part 1
-//
 // NOTE: & 0xffff means leave only 16 lower bits, since PHP's ints depend on
 //          arch int size (so 64 bit on x86_64)
 // TODO: Solution is super inelegant.

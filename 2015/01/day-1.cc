@@ -1,12 +1,3 @@
-// Part 1:
-//  - Start is floor 0
-//  - ( means go up 1 floor
-//  - ) means go down 1 floor
-//  - Objective: get the floor number
-//
-// Part 2: Get first character that leads to basement (-1)
-//  - Index starts at 1
-
 #include <fstream>
 #include <iostream>
 

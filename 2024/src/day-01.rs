@@ -1,15 +1,3 @@
-/*
-    Part 1: Find out the total distance between two lists
-        - Two columns holding unique ID's
-        - Must pair up the smallest ID from the left column with the ID from the
-            right list, then the second smallest, so on and so forth...
-        - The distance is the difference between the two IDs
-        - So, it's just ordering both lists and subtracting them
-
-    Part 2: Calculate the similarity score
-        - Multiply each left-side element by the number of times
-*/
-
 use std::fs;
 
 fn main() {

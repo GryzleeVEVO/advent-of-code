@@ -1,13 +1,3 @@
-/*
-    Part 1: How many times XMAS appears in the input?
-        - The word can be found
-            - Horizontally
-            - Vertically
-            - Diagonally
-            - Backwards, for all of the above
-        - They can overlap
-*/
-
 use std::fs;
 
 fn main() {
